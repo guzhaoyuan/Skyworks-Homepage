@@ -366,7 +366,7 @@ figure {
 
 .sf-menu a {
   color: rgba(0, 0, 0, 0.8);
-  padding: 2.4em 1.3em !important;
+  padding: 1em 1.3em !important;
   font-weight: normal;
   border-left: none;
   border-top: none;
@@ -455,11 +455,11 @@ figure {
   background: white;
   padding: 0;
   width: 100%;
-  -webkit-box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0.22);
-  -moz-box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0.22);
-  -ms-box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0.22);
-  -o-box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0.22);
-  box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0);
+  -ms-box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0);
+  -o-box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0);
+  box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0);
 }
 @media screen and (max-width: 768px) {
   #fh5co-header-section {
@@ -479,7 +479,7 @@ figure {
   font-weight: 700;
   float: left;
   margin-bottom: 0;
-  margin-top: 1.4em;
+  margin-top: 0.7em;
 }
 #fh5co-logo a {
   color: rgba(21, 31, 44, 0.8);
@@ -613,7 +613,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-hero .btn {
-  font-size: 24px;
+  font-size: px;
 }
 #fh5co-hero .btn.btn-primary {
   padding: 14px 30px !important;
@@ -702,9 +702,10 @@ figure {
   color: #d9534f;
 }
 
-#fh5co-services-section,
-#fh5co-pricing-section,
-#fh5co-blog-section,
+#fh5co-services-section{
+  padding: 0 0;
+}
+
 #fh5co-counter-section,
 #fh5co-about-section,
 #fh5co-contact-section {
