@@ -235,7 +235,7 @@ figure {
 }
 
 .fh5co-cover,
-.fh5co-hero {
+.fh5co-hero{
   position: relative;
   height: 800px;
 }
@@ -246,11 +246,11 @@ figure {
   }
 }
 .fh5co-cover.fh5co-hero-2,
-.fh5co-hero.fh5co-hero-2 {
+.fh5co-hero.fh5co-hero-2{
   height: 600px;
 }
 .fh5co-cover.fh5co-hero-2 .fh5co-overlay,
-.fh5co-hero.fh5co-hero-2 .fh5co-overlay {
+.fh5co-hero.fh5co-hero-2 .fh5co-overlay{
   position: absolute !important;
   width: 100%;
   top: 0;
@@ -608,8 +608,8 @@ figure {
   background: none !important;
 }
 
-#fh5co-hero {
-  min-height: 700px;
+#fh5co-hero{
+  min-height: 540px;
   background: #fff url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-hero .btn {
@@ -703,7 +703,7 @@ figure {
 }
 
 #fh5co-services-section{
-  padding: 0 0;
+  padding: 1em 0;
 }
 
 #fh5co-counter-section,
@@ -886,6 +886,7 @@ figure {
 }
 
 .services {
+  min-height: 280px;
   margin-bottom: 4.5em;
   padding: 70px 25px 25px 25px;
   border: 2px solid rgba(45, 64, 89, 0.1);
