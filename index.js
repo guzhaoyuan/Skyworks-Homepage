@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.use(express.static('homepage'));
 
-app.post('/post',function (req, res) {
+app.post('/homepage',function (req, res) {
     console.log(req.body);
 
     // create reusable transporter object using the default SMTP transport
