@@ -213,7 +213,6 @@
 			} , { offset: '90%' } );
 		}
 	};
-	
 
 	// Document on load.
 	$(function(){

@@ -1,0 +1,25 @@
+{
+  "name": "skywork-homepage",
+  "version": "1.0.0",
+  "description": "homepage for skyworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guzhaoyuan/Skyworks-Homepage.git"
+  },
+  "author": "gzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guzhaoyuan/Skyworks-Homepage/issues"
+  },
+  "homepage": "https://github.com/guzhaoyuan/Skyworks-Homepage#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.2"
+  }
+}
